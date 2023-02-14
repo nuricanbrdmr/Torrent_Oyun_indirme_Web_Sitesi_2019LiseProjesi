@@ -1,0 +1,423 @@
+/* CSS Document */
+
+body {
+    background-image: url(arka.png);
+}
+
+#ana {
+    border-top: 3px solid #09F;
+}
+
+nav ul li:hover {
+    display: block;
+    background-color: #099;
+    box-shadow: 3px 3px #333;
+}
+
+#logo img {
+    transition: all 1s;
+}
+
+#logo img:hover {
+    transform: rotate(360deg) scale(1.3, 1.3);
+}
+
+#login a {
+    transition: all 1s;
+}
+
+#login a:hover {
+    transform: scale(1.3, 1.3);
+}
+
+#box1:hover {
+    box-shadow: 0 0 15px #990000;
+}
+
+#box1 {
+    height: 160px;
+    border: 3px solid #069;
+    word-wrap: break-word;
+    border-radius: 15px;
+}
+
+#box2 {
+    font-size: 14px;
+    color: #8C8C8C;
+    font-weight: 500;
+}
+
+#box3 {
+    font-size: 14px;
+    color: #8C8C8C;
+    font-weight: 500;
+}
+
+#box4 {
+    font-size: 14px;
+    color: #8C8C8C;
+    font-weight: 500;
+}
+
+#box5 {
+    font-size: 14px;
+    color: #8C8C8C;
+    font-weight: 500;
+}
+
+#box6 {
+    font-size: 14px;
+    color: #8C8C8C;
+    font-weight: 500;
+}
+
+#grs {
+    height: auto;
+    line-height: normal;
+    border: 3px solid #0CC;
+    background-color: #DFDFDF;
+    border-radius: 15px;
+}
+
+#grs marquee {
+    color: #06F;
+    font-weight: 600;
+}
+
+#liste {
+    color: #099;
+    border-bottom: 2px solid #09C;
+}
+
+#liste:hover {
+    background-color: #CFF;
+}
+
+#idmimage {
+    box-shadow: 0 0 20px #990000;
+}
+
+#bas {
+    font-size: 18px;
+    border-bottom: 1px solid #999;
+    font-weight: bold;
+}
+
+#sayfag {
+    border: 2px solid #0CF;
+    border-left: none;
+    font-weight: bold;
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+}
+
+@media screen and (min-width:0px) and (max-width:800px) {
+    .form-row {
+        margin-left: 0;
+    }
+    #me {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:750px) {
+    #box2 {
+        word-spacing: 0px;
+        letter-spacing: -1px;
+    }
+    #box3 {
+        word-spacing: 0px;
+        letter-spacing: -1px;
+    }
+    #box4 {
+        word-spacing: 0px;
+        letter-spacing: -1px;
+    }
+    #box5 {
+        word-spacing: 0px;
+        letter-spacing: -1px;
+    }
+    #box6 {
+        word-spacing: 0px;
+        letter-spacing: -1px;
+    }
+    #box2 b {
+        display: none;
+    }
+    #box3 b {
+        display: none;
+    }
+    #box4 b {
+        display: none;
+    }
+    #box5 b {
+        display: none;
+    }
+    #box6 b {
+        display: none;
+    }
+    #mt2logo img {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:1200px) {
+    #box2 b span {
+        display: none;
+    }
+    #box3 b span {
+        display: none;
+    }
+    #box4 b span {
+        display: none;
+    }
+    #box5 b span {
+        display: none;
+    }
+    #box6 b span {
+        display: none;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:550px) {
+    #mt2image {
+        margin-top: 80px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    #idmimage {
+        margin-top: 80px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    #gcs {
+        margin-bottom: 50px;
+    }
+    #carouselExampleFade {
+        width: 440px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #carouselExampleFade {
+        width: 440px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:750px) {
+    #mt2image {
+        margin-top: 40px;
+    }
+    #idmimage {
+        margin-top: 40px;
+    }
+    #gcs {
+        margin-bottom: 50px;
+    }
+    #carouselExampleFade {
+        width: 440px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding-right: 5px;
+    float: right;
+}
+
+::placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+.search_input {
+    color: #000;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+    padding: 0 20px;
+    width: 220px;
+    caret-color: #09F;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+    background: white;
+    color: #0099CC;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #000;
+    text-decoration: none;
+}
+
+#girismail,
+#girissifre {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#girisbuton {
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+    .divider-text {
+        position: relative;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .divider-text span {
+        padding: 7px;
+        font-size: 12px;
+        position: relative;
+        z-index: 2;
+    }
+    .divider-text:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        top: 55%;
+        left: 0;
+        z-index: 1;
+    }
+    .btn-facebook {
+        background-color: #405D9D;
+        color: #fff;
+    }
+    .btn-twitter {
+        background-color: #42AEEC;
+        color: #fff;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.a {
+    margin: 0 15px;
+    line-height: .7;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .45);
+    animation: span 3s ease-in infinite alternate;
+    font-size: large;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.letter {
+    display: inline-flex;
+    height: 30px;
+    width: 10px;
+    /* border: 2.5px solid #FF1EAD; */
+    border: 2.35px solid black;
+    border-radius: 14px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .75), inset 0 0 2px rgba(0, 0, 0, .45);
+    animation: letter 3s ease-in-out infinite alternate;
+}
+
+@keyframes span {
+    0%,
+    30% {
+        margin: 0 15px;
+    }
+    70%,
+    100% {
+        margin: 0 5px;
+    }
+}
+
+@keyframes letter {
+    0%,
+    30% {
+        width: 17px;
+    }
+    70%,
+    100% {
+        width: 10vw;
+    }
+}
